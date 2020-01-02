@@ -19,6 +19,6 @@ export default class Todos extends Component {
 //PropTypes
 Todos.propTypes = {
   todos: PropTypes.array.isRequired,
-  markTodo: PropTypes.func.isRequired,
+  markComplete: PropTypes.func.isRequired,
   delTodo: PropTypes.func.isRequired
 }
